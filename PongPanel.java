@@ -49,9 +49,7 @@ public class PongPanel extends JPanel implements ActionListener, KeyListener {
 		   public void paintComponent(Graphics g) {
 		        super.paintComponent(g);
 		        paintDottedLine(g);
-		        //we will change this in the commit GITHUB
-		        //g.setColor(Color.WHITE);
-		        //g.fillRect(20, 20, 100, 100);
+		        
 		   }
 		   
 		   private void paintDottedLine(Graphics g) {
